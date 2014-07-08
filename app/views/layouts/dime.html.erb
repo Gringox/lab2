@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>lab2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <h2><%= Time.now %></h2>
+
+  <h2>El controlador "dime" dice:</h2>
+
+  <marquee class='yield_class'><%= yield %></marquee>
+
+</body>
+</html>
